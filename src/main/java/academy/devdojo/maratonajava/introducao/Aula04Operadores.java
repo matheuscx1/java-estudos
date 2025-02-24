@@ -43,5 +43,41 @@ public class Aula04Operadores {
         System.out.println("10 é igual a 10? " + isDezIgualDez);
         System.out.println("10 é diferente de 10.0? " + isDezDiferenteDez);
 
+        // && (and) || (or) !
+        int idade = 29;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlay = 5000F;
+        boolean isPlayCincoCompravel = valorTotalContaCorrente > valorPlay || valorTotalContaPoupanca > valorPlay;
+                // Sempre compare dois valores
+        System.out.println("isPlayCincoCompravel " + isPlayCincoCompravel);
+
+
+        // = += -= *= /= %=
+
+        double bonus = 1800; //1800
+        bonus += 1000; //2800
+        bonus -= 1000;  // 1800
+        bonus *= 2;
+        bonus /=2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        //
+        int contador = 0;
+        contador += 1; // contador = contador + 1;
+        contador++;
+        contador--;
+        //colocar antes = primeiro incrementa, dps executa.
+        // colocar depois= primeiro executa dps incrementa
+        System.out.println(contador);
+
     }
 }
