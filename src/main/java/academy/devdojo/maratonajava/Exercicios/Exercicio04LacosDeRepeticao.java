@@ -16,6 +16,29 @@ public class Exercicio04LacosDeRepeticao {// Não misture double com it, para na
     }
 }
 
+// Codigo mais simplificado utilizando o break
+
+/*
+ public static void main(String[] args) {
+     double valorDoCarro = 30000;
+        for (int parcela = 1; parcela <= valorDoCarro; parcela++) {
+            double valorParcela = valorDoCarro / parcela;
+            if (valorParcela < 1000){
+            break;
+            }
+     System.out.println("Parcela "+ parcela + "R$ " + valorParcela);
+
+        }
+
+    }
+ */
+
+
+
+
+
+
+
 /*
 Como funcionou esse fluxo:
 Primeira iteração:
