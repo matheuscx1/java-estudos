@@ -8,7 +8,7 @@ public class Aula07Arrays {
         idades[1] = 15;
         idades[2] = 11;
         idades[3] = 11;//Invalido, pois o array possui apenas 3 posicoes
-        System.out.println(idades);
+        System.out.println(idades[0]);
     }
 }
 //Arrays começam em 0
