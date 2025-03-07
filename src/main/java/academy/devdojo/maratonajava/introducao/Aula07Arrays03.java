@@ -10,5 +10,12 @@ public class Aula07Arrays03 {
             System.out.println(numeros3[i]);
 
         }
+
+
+        // versao simplificada do for sem indice
+        // num vai percorrer o array, na primeira iteração pega o primeiro, dps o proximo e assim por diante
+        for(int num:numeros3){
+            System.out.println(num);
+        }
     }
 }
