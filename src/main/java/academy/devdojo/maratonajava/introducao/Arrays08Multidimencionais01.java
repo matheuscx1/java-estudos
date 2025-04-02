@@ -18,11 +18,17 @@ public class Arrays08Multidimencionais01 {
         dias[2][2] = 9;
 
         for (int i = 0; i < dias.length ; i++) {
-            for (int j = 0; j < dias[0].length ; j++) {
+            for (int j = 0; j < dias[i].length ; j++) {
                 System.out.println(dias[i][j]);
 
             }
 
+        }
+
+        for (int[] arrayBase: dias){
+            for(int num: arrayBase){
+                System.out.println(num);
+            }
         }
 
 
