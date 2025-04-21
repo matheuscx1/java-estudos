@@ -21,7 +21,7 @@ public class CarroTest01 {
 
         //Caso voce queira referenciar a mesma variavel faça: carro = carro2
         //Isso irá fazer com que carro1 referencie carro2 agora;
-        // Faça isso apenas com objetos do mesmo tipo de herança 
+        // Faça isso apenas com objetos do mesmo tipo de herança
 
 
     }
