@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.introducaoJava;
 
 public class Aula07Arrays03 {
     public static void main(String[] args) {// 3 formas de fazer array

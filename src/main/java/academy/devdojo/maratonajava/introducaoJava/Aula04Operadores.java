@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.introducaoJava;
 /*
 Operadores em java são usados para realizar operações matematicas, logicas e de comparação
  */
