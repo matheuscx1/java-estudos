@@ -1,6 +1,11 @@
 package academy.devdojo.maratonajava.BIntroducaometodosPOO.dominio;
 
 public class Calculadora {
+
+
+    //public modificador  //void não retorna nada //somaDoisNumeros() é a função
+
+    //parametros de função = o que a funcao precisa pra rodar
     public void somaDoisNumero(){
         System.out.println(10 + 10);
 

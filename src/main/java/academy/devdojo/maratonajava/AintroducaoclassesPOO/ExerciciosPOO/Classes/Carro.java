@@ -29,7 +29,7 @@ public class Carro {
    public String modelo; // Ex: "Mille", "GT"...
    public int ano; // Ex: 2008, 2018...
     */
-   
+
    // Esses atributos representam o "estado" do carro
    // Toda vez que você cria um novo Carro (com `new Carro()`),
    // um novo objeto com esses atributos vazios será criado na memória
