@@ -55,6 +55,15 @@ public class Calculadora {
 
         //em Java, quando você passa variáveis primitivas (como int, double, etc.) para um método, você está passando uma cópia do valor, não o valor original diretamente.
     }
+    //Desafio: Criar uma calculadora que valida se um numero é primo ou não
+    // retornar true se for, false se não for
+
+    //Desagio 2: criar uma calculadora que recebe uma lista ou array e retorna toda essa lista  x2
+    // Se a entrada for [1,2,3] o retorno de [2, 4, 6]
+
+
+
+
 
 }
 
