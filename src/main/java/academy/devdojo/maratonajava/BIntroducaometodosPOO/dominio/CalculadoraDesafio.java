@@ -27,12 +27,16 @@ public class CalculadoraDesafio {
             }
         }
 
+
+         //Verifica se o numero possui 2 divisoes, o de 1 e o dele mesmo ou seja 5/1 ou 5/1
         if (numDivisores == 2){
             System.out.println("é primo");
         }else{
             System.out.println("não é primo");
         }
     }
+
+    //resto é tudo aquilo que sobra da divisao, ex: 7/3 = 2,333 resto, não é exato
 
     //Exemplo para o número 5:
     //Quando i = 1, 5 é divisível por 1, então numDivisores vai para 1.
