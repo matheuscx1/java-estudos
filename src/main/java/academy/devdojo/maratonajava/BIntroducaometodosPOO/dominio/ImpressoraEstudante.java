@@ -19,5 +19,7 @@ public class ImpressoraEstudante {
         System.out.println(estudante.idade);// Imprime a idade do estudante
         System.out.println(estudante.sexo);// Imprime o sexo do estudante
 
+        estudante.nome = "gohan";
+
     }
 }
