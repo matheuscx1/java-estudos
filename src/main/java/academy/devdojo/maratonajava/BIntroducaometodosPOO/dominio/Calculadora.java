@@ -62,6 +62,26 @@ public class Calculadora {
     // Se a entrada for [1,2,3] o retorno de [2, 4, 6]
 
 
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for(int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+                                //precisa ser com os 3 pontos antes
+                                //precisa ser o ultimo dentro dos parenteses
+        public void somaVarArgs(int... numeros){
+        int soma = 0;// Variável pra acumular a soma
+
+            // Mesmo esquema de for-each: percorre cada número recebido
+            for(int num : numeros){
+            soma += num; // Soma o valor atual de 'num'
+        }
+        System.out.println(soma);// Mostra o resultado final da soma
+        }
+
 
 
 
