@@ -26,24 +26,34 @@ public class FuncionarioTest01 {
     }
 }
 
-// 🗺️ MAPA COMPLETO DO FLUXO
-// ✅ Quem cria quem:
-// - Aqui criamos um objeto funcionario do tipo Funcionario.
-// - Esse objeto é uma instância da classe Funcionario.
-//
-// ✅ Quem chama quem:
-// - main() → cria funcionario → chama funcionario.imprimir().
-// - imprimir() dentro do Funcionario → chama mediaSalario() internamente.
-//
-// ✅ Como os dados fluem:
-// - Preenchemos os atributos (nome, idade, salarios) diretamente no objeto funcionario.
-// - Ao chamar imprimir(), ele mostra os dados e calcula a média.
-//
-// ✅ POO envolvido:
-// - Instância → o objeto funcionario criado.
-// - Encapsulamento (não ideal aqui porque os atributos são public).
-// - Método → chamamos um método da instância (imprimir()), que por sua vez chama outro método (mediaSalario()).
-// - Array → usado para armazenar múltiplos salários no atributo salarios.
-//
+// 🗺️ MAPA COMPLETO DO FLUXO (documentação geral no final)
+// --------------------------------------------
+// ✅ O que cada classe faz:
+// - Funcionario → guarda os dados (nome, idade, salários) e tem métodos para imprimir e calcular média.
+// - FuncionarioTest01 → cria um objeto Funcionario, preenche os dados e aciona o processo.
+
+// ✅ Quem instancia quem:
+// - Aqui no main() → instanciamos (criamos) um objeto funcionario.
+// - Chamamos funcionario.imprimir() → isso usa os métodos definidos dentro da classe Funcionario.
+
+// ✅ O que acontece no método imprimir():
+// - Imprime os atributos nome e idade.
+// - Percorre o array salarios e imprime cada valor.
+// - Chama internamente o método mediaSalario() → calcula e imprime a média salarial.
+
+// ✅ Conceitos de POO aqui:
+// - Classe → molde para criar objetos (Funcionario).
+// - Objeto (instância) → funcionario criado no main.
+// - Método → funções dentro da classe (imprimir, mediaSalario).
+// - Encapsulamento (parcial) → estamos acessando atributos diretamente, mas boas práticas sugerem usar private + getters/setters.
+// - Arrays → estrutura para armazenar múltiplos salários.
+
 // ✅ Analogia prática:
-// Pense no FuncionarioTest01 como o programador testando uma ficha de funcionário: ele cria, preenche e pede para a ficha se exibir e fazer contas sobre si mesma.
+// Pense que você está preenchendo uma ficha de funcionário no sistema (FuncionarioTest01).
+// Quando você manda imprimir(), a ficha automaticamente lê seus próprios dados e ainda calcula a média dos salários para exibir.
+// Você não precisa fazer isso manualmente no testador; a própria classe sabe como lidar com seus dados (princípio básico de encapsulamento e responsabilidade).
+
+// ✅ Melhorias possíveis:
+// - Tornar os atributos privados para garantir encapsulamento real.
+// - Usar getters/setters para acessar/modificar dados.
+// - Fazer verificações mais robustas (ex: se o array de salários estiver vazio ou nulo).

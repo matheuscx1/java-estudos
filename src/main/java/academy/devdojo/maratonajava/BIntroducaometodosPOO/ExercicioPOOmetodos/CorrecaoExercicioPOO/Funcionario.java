@@ -73,24 +73,22 @@ public class Funcionario {
 
 // 🗺️ MAPA COMPLETO DO FLUXO
 // ✅ Quem cria quem:
-// - A classe FuncionarioTest01 cria o objeto Funcionario.
-// - Esse objeto armazena os dados e os métodos.
+// - Aqui criamos um objeto funcionario do tipo Funcionario.
+// - Esse objeto é uma instância da classe Funcionario.
 //
 // ✅ Quem chama quem:
-// - FuncionarioTest01.main() → chama funcionario.imprimir() → que chama mediaSalario().
+// - main() → cria funcionario → chama funcionario.imprimir().
+// - imprimir() dentro do Funcionario → chama mediaSalario() internamente.
 //
 // ✅ Como os dados fluem:
-// - Os dados do array salarios são usados tanto no laço for (para imprimir) quanto no cálculo da média.
-// - O método imprimir() é o ponto central, porque além de exibir, ele também dispara o cálculo da média.
+// - Preenchemos os atributos (nome, idade, salarios) diretamente no objeto funcionario.
+// - Ao chamar imprimir(), ele mostra os dados e calcula a média.
 //
 // ✅ POO envolvido:
-// - Instância → o objeto Funcionario criado no main.
-// - Encapsulamento → aqui não está bem aplicado, porque os atributos estão public; o ideal seria usar private + getters/setters.
-// - Método → funções da classe, como imprimir() e mediaSalario().
-// - Array → estrutura de dados para armazenar múltiplos salários.
-// - Responsabilidade → Funcionario cuida de seus próprios dados e cálculos; FuncionarioTest01 apenas cria e dispara ações.
+// - Instância → o objeto funcionario criado.
+// - Encapsulamento (não ideal aqui porque os atributos são public).
+// - Método → chamamos um método da instância (imprimir()), que por sua vez chama outro método (mediaSalario()).
+// - Array → usado para armazenar múltiplos salários no atributo salarios.
 //
 // ✅ Analogia prática:
-// Pense no Funcionario como uma ficha de cadastro que sabe mostrar seus dados e fazer contas sobre si mesma.
-// O FuncionarioTest01 é como alguém testando essa ficha, preenchendo os campos e pedindo para a ficha se apresentar.
-
+// Pense no FuncionarioTest01 como o programador testando uma ficha de funcionário: ele cria, preenche e pede para a ficha se exibir e fazer contas sobre si mesma.
