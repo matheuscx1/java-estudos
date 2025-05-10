@@ -30,6 +30,8 @@ public class Pessoa {
         // Usamos "this.nome" para diferenciar o atributo do parâmetro local
         this.nome = nome;
     }
+
+    //set usa void pois nao retornam nada apenas executam a ação
                         //O que vc quer passar
     public void setIdade(int idade){
         // Aqui temos uma verificação para impedir idades inválidas

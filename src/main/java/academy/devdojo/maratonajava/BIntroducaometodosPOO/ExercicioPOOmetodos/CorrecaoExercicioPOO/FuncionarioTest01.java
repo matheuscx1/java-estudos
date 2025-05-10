@@ -13,9 +13,10 @@ public class FuncionarioTest01 {
 
         // 🏷️ ATRIBUIÇÃO DE VALORES
         // Preenchendo os atributos com dados fictícios (simulando um caso real)
-    funcionario.nome = "sanji";
-    funcionario.idade = 23;
-    funcionario.salarios =  new double[]{1500, 987.65, 3000};
+    funcionario.setNome("sanji");
+    funcionario.setIdade(23);
+    funcionario.setSalarios(new double[]{1500, 987.65, 3000});
+        System.out.println(funcionario.getMedia());
 
         // ⚙️ CHAMADA DO MÉTODO imprimir()
         // Isso vai rodar o método imprimir do Funcionario, que:

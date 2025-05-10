@@ -8,9 +8,10 @@ package academy.devdojo.maratonajava.BIntroducaometodosPOO.ExercicioPOOmetodos.C
 public class Funcionario {
     // 🔑 ATRIBUTOS (ou campos, ou variáveis de instância)
     // São as características do objeto (instância de Funcionario) quando ele for criado
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double media;
 
     // ⚙️ MÉTODO imprimir()
     // Este método imprime os dados básicos do funcionário no console
@@ -69,6 +70,35 @@ public class Funcionario {
         System.out.println("\nMédia salarial: " + media);
 
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public double getMedia() {
+        return media;
+    }
+
 }
 
 // 🗺️ MAPA COMPLETO DO FLUXO
