@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Csobrecargametodos.dominio;
+package academy.devdojo.maratonajava.Csobrecargametodos.domminio;
 
 public class Anime {
     // 🔒 ATRIBUTO PRIVADO
