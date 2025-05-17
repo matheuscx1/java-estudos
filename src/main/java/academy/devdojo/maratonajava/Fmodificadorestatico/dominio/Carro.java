@@ -3,9 +3,8 @@ package academy.devdojo.maratonajava.Fmodificadorestatico.dominio;
 public class Carro {
     private String nome; // Instance variable to hold the car's name
     private double velocidadeMaxima; // Instance variable to hold the car's maximum speed
-    public static double velocidadeLimite = 250; // Static variable that belongs to the class, not the instance
-
-
+    private static double velocidadeLimite = 250; // Static variable that belongs to the class, not the instance
+    
     //depois de colcoar o modificador estatico, agora pertence ao carro, a classe carro
     //entao é meio q dizer q essa variavel nao faz mais parte do objeto em si,a gora pertence a carro
     //nao pertence mais a uma instancia
@@ -36,6 +35,15 @@ public class Carro {
         System.out.println("VelocidadeMaxima: " + this.velocidadeMaxima);
         System.out.println("VelocidadeLimite: " + this.velocidadeLimite);
     }                                              //vc coloca Carro.velocidadeLimite
+
+
+
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+    public static double getVelocidadeLimite() {
+        return velocidadeLimite;
+    }
 
 
     // Getter and setter methods for the car's attributes
