@@ -1,0 +1,9 @@
+O que é o modificador static?
+O modificador static indica que um membro (atributo ou método) pertence à classe, e não a um objeto específico.
+
+Isso significa que existe uma única cópia daquele membro compartilhada por todos os objetos da classe.
+
+Onde pode ser usado?
+Atributos estáticos: compartilhados entre todos os objetos da classe.
+
+Métodos estáticos: podem ser chamados sem criar um objeto da classe.

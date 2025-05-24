@@ -11,6 +11,10 @@ public class AnimeTest01 {
         //anime.init("Biriri", "Tv", 12, "Romance");
         // 💡 Antigamente usávamos: anime.init(...), agora isso é feito direto no construtor
         anime.imprime();
+
+
+        Anime anime2 = new Anime("DBZ");
+       Anime anime3 = new Anime();
     }
 
 // 🗺️ MAPA DO TESTE:

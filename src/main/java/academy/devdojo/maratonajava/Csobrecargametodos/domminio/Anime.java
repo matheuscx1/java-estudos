@@ -10,6 +10,23 @@ public class Anime {
     private String genero;
 
 
+    public Anime(String nome, String tipo) {
+        this.nome = nome;
+        this.tipo = tipo;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Anime{" +
+                "nome='" + nome + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", episodios=" + episodios +
+                ", genero='" + genero + '\'' +
+                '}';
+    }
+
+
     // ⚙️ MÉTODO init() - SOBRECARGA 1
     // Este método serve para inicializar os valores de nome, tipo e episódios
     public void init(String nome, String tipo, int episodios) {

@@ -7,7 +7,20 @@ public class Anime {
     private String genero;
     private String estudio;
 
+    public Anime(String nome) {
+        this.nome = nome;
+    }
 
+    @Override
+    public String toString() {
+        return "Anime{" +
+                "nome='" + nome + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", episodios=" + episodios +
+                ", genero='" + genero + '\'' +
+                ", estudio='" + estudio + '\'' +
+                '}';
+    }
 
     // ⚙️ CONSTRUTOR
     // O construtor é chamado automaticamente quando você cria um objeto com `new Anime(...)`

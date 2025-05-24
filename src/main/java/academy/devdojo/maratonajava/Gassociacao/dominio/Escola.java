@@ -4,6 +4,9 @@ public class Escola {
     private String nome;
     private Professor[] professores;
 
+    //Composicão é quando um objeto tem outro objeto dentro dele
+    //Herança é quando o objeto é outro objeto
+
     public Escola(String nome) {
         this.nome = nome;
     }
