@@ -1,0 +1,11 @@
+O que são Classes?
+Classe é como uma "fôrma" ou "molde" que define um tipo de objeto.
+
+Ela descreve as características (atributos) e comportamentos (métodos) que os objetos desse tipo terão.
+
+A partir da classe, você cria objetos (instâncias) que representam coisas reais ou abstratas no programa.
+
+
+Classe = modelo que define dados + ações
+
+Objeto = instância de uma classe, um "exemplar" concreto
