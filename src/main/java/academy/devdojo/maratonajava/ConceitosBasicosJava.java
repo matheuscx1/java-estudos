@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.BIntroducaometodosPOO;
+package academy.devdojo.maratonajava;
 
 public class ConceitosBasicosJava {
     //Objetos: são como "coisas" no seu programa. Um "Estudante" é um objeto, e esse objeto pode ter "atributos" como nome, idade e sexo.
@@ -10,4 +10,7 @@ public class ConceitosBasicosJava {
     //Passagem por referência: quando você "passa um objeto para um método", o método não cria uma cópia desse objeto. Ele usa a "localização" dele na memória para acessar e modificar os dados do objeto. Isso é chamado de passagem por referência.
 
     //O método toString() em Java é uma função presente na classe Object, que é a superclasse de todas as classes em Java. Sua função principal é retornar uma representação em formato de texto do objeto.
+
+
+    
 }
