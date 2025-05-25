@@ -9,9 +9,13 @@ public class EscolaTest01 {
         Professor professor2 = new Professor("Paçoca");
         Professor professor3 = new Professor("Maria");
 
-
         Professor[] professores = {professor, professor2, professor3};
-        Escola escola = new Escola("Konoha", professores);
+
+        Escola escola = new Escola("Konoha");
+        //A lista de  professores virá de fomra externa
+        //Simulando chamada...Recebemos a lista de professores
+
+        escola.setProfessores(professores);
         escola.imprime();
 
 
