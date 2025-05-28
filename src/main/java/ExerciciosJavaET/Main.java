@@ -1,8 +1,5 @@
 package ExerciciosJavaET;
 
-
-
-
 public class Main {
     public static int getBattery(int[] eventos){
         int bateria = 50;
