@@ -1,10 +1,28 @@
 package academy.devdojo.maratonajava.Hheranca;
 
+//Protect: dá acesso direto a variavel a todas as subclasses independentes de onde elas estiverem
+//Porem, todas as classes do mesmo pacote terão acesso
+
+
 
 //Uma classe que herda os campos de outros? Exemplo: um funcionário pode herdar atributos de uma classe Pessoa, porque Funcionário também é uma pessoa, só tem algumas especificações.
 //Por isso usamos o extends, vc usa quando que extender os funcionalidades de outra classe, ou seja, manter o relacionamento entre elas
 public class Funcionario extends Pessoa{
     private double salario;
+
+
+    //Sobrescrevendo a classe pai
+    public void imprime(){
+        //se refere ao objeto que é o objeto mais generico, no caso Pessoa
+        super.imprime();//Execute o imprime, que vem do método pessoa, mas agora adicione o salario
+        System.out.println(this.salario);
+    }
+
+    public void relatorioPagamento(){
+        System.out.println("Eu" + this.nome + " Recebi o salario de " + this.salario);
+
+    }
+
 
     public Funcionario() {
         this.salario = salario;

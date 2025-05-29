@@ -1,16 +1,17 @@
 package academy.devdojo.maratonajava.Hheranca;
 
 public class Pessoa {
-  private String nome;
-  private String cpf;
-  private Endereco endereco;
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
+    //com protected vão ter acesso aos atributos como se fossem publicos
 
-    public void imprime(){
-      System.out.println(this.nome);
-      System.out.println(this.cpf);
-      System.out.println(this.endereco.getRua() + " " + this.endereco.getCep());
-  }
+    public void imprime() {
+        System.out.println(this.nome);
+        System.out.println(this.cpf);
+        System.out.println(this.endereco.getRua() + " " + this.endereco.getCep());
+    }
 
 
     public String getNome() {
