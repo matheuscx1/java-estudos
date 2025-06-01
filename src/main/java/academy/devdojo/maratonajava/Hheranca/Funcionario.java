@@ -10,6 +10,22 @@ package academy.devdojo.maratonajava.Hheranca;
 public class Funcionario extends Pessoa{
     private double salario;
 
+    static{
+        System.out.println("Dentro do bloco de inicialização estático Funcionario");
+    }
+
+    {
+        System.out.println("Dento do bloco inicialização Funcionario 1");
+    }
+    {
+        System.out.println("Dento do bloco inicialização Funcionario 2");
+    }
+
+
+    public Funcionario(String nome){
+        super(nome);
+        System.out.println("Dentro do construtor de funcionario");
+    }
 
     //Sobrescrevendo a classe pai
     public void imprime(){
@@ -23,9 +39,8 @@ public class Funcionario extends Pessoa{
 
     }
 
-
-    public Funcionario() {
-        this.salario = salario;
+    public double getSalario() {
+        return salario;
     }
 
     public void setSalario(double salario) {

@@ -5,8 +5,8 @@ public class Endereco {
     private String cep;
 
     public void imprime(){
-    Pessoa p = new Pessoa();
-    p.nome = "biri";
+//    Pessoa p = new Pessoa();
+//    p.nome = "biri";
     }
 
     public Endereco(String rua, String cep) {

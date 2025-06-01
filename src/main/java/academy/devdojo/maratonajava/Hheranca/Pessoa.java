@@ -5,6 +5,30 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+
+    static{
+        System.out.println("Dentro do bloco de inicialização estático pessoa");
+    }
+
+    {
+        System.out.println("Dento do bloco inicialização pessoa 1");
+    }
+    {
+        System.out.println("Dento do bloco inicialização pessoa 2");
+    }
+
+    public Pessoa(String nome){
+        System.out.println("Dentro do construtor pessoa");
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf){
+        this(nome);
+        this.cpf = cpf;
+    }
+
+
+
     //com protected vão ter acesso aos atributos como se fossem publicos
 
     public void imprime() {
@@ -12,6 +36,8 @@ public class Pessoa {
         System.out.println(this.cpf);
         System.out.println(this.endereco.getRua() + " " + this.endereco.getCep());
     }
+
+
 
 
     public String getNome() {
