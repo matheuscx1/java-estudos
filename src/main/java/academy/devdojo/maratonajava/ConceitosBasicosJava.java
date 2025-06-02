@@ -11,7 +11,6 @@ public class ConceitosBasicosJava {
 
     //O método toString() em Java é uma função presente na classe Object, que é a superclasse de todas as classes em Java. Sua função principal é retornar uma representação em formato de texto do objeto.
 
-
     //Qual o processo de compilação de um código Java?
 
     //O desenvolvedor escreve o código em um arquivo .java, usando a linguagem java
