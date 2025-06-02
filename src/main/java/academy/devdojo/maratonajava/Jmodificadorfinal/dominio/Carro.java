@@ -26,3 +26,6 @@ public class Carro {
         this.nome = nome;
     }
 }
+
+//final pode ser usada em atributos, mmetodos e classes
+// static compartilha valor com todas as instancias sem precisar extender
