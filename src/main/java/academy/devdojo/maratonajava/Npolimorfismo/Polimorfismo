@@ -7,3 +7,10 @@ Exemplo:
 Produto tem um método calcularImposto()
 Computador, Carro e livro sobrescrevem esse método com sua propria implementacao
 Vc chama produto.calcularimposto() e executa a versão certa baseada no objeto atual, ou seja, vc escolhe o comportamento e qual ação tomar
+
+O que é Narrowing?
+É onde vc pega um tipo maior ou mais geral e força ele a um tipo maior ou mais especifico
+
+
+Widening cast(mais seguro, automatico)
+Quando vc converte um tipo geral ou especifico pequeno em um tipo maior e mais geral
