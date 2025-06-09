@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Hheranca;
+package academy.devdojo.maratonajava.Hheranca.dominio;
 
 public class Endereco {
     private String rua;

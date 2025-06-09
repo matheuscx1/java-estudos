@@ -1,13 +1,12 @@
-package academy.devdojo.maratonajava.Hheranca;
+package academy.devdojo.maratonajava.Hheranca.dominio;
 
 //Protect: dá acesso direto a variavel a todas as subclasses independentes de onde elas estiverem
 //Porem, todas as classes do mesmo pacote terão acesso
 
 
-
 //Uma classe que herda os campos de outros? Exemplo: um funcionário pode herdar atributos de uma classe Pessoa, porque Funcionário também é uma pessoa, só tem algumas especificações.
 //Por isso usamos o extends, vc usa quando que extender os funcionalidades de outra classe, ou seja, manter o relacionamento entre elas
-public class Funcionario extends Pessoa{
+public class Funcionario extends Pessoa {
     private double salario;
 
     static{

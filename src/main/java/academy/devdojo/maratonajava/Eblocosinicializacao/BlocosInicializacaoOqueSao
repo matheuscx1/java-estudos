@@ -1,5 +1,0 @@
-Blocos de inicialização em Java são trechos de código usados para executar uma inicialização comum para todos os objetos da classe, sem estar dentro de um método ou construtor.
-
-Blocos de inicialização são códigos que inicializam a classe (estático) ou objetos (instância), rodando automaticamente na criação ou carregamento.
-
-São usados para evitar repetição de código comum a vários construtores ou para inicializar variáveis estáticas.
