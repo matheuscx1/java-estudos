@@ -1,0 +1,28 @@
+✅ O que são métodos?
+Métodos são ações que os objetos podem realizar.
+Em outras palavras, são funções dentro de uma classe.
+
+⚙️ O que fazem?
+Eles executam comportamentos, ou seja, dizem o que o objeto pode fazer.
+
+Podem usar ou mudar os atributos do objeto.
+
+🧠 Pra que servem?
+Deixam seu código organizado: cada método tem uma função clara.
+
+Facilitam reaproveitar comportamentos: você escreve uma vez e usa quantas vezes quiser.
+
+Encapsulam lógica: escondem os detalhes e mostram só o que importa.
+
+🐶 Exemplo mental (sem código)
+Classe: Cachorro
+Atributo: nome
+Método: latir()
+
+O método latir() faz o cachorro... latir!
+Quando você chama meuCachorro.latir(), o objeto executa essa ação.
+
+🧠 Fala mágica pra memorizar:
+“Método é o que o objeto faz.
+É a ação que a classe traz.”
+
