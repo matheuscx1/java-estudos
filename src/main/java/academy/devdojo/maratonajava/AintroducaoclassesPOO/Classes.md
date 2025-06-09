@@ -22,6 +22,9 @@ Objeto é o que **nasce da classe**.
 ---
 
 ## ✍️ FORMULA MENTAL
+Classe = atributos (o que tem) + métodos (o que faz)
+Objeto = um exemplo real da classe
+
 
 
 ---
