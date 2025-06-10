@@ -96,7 +96,3 @@ Código intermediário gerado pelo compilador Java que pode ser executado em qua
 - “Bytecode é o código universal da JVM.”
 - “JIT deixa seu programa voando na máquina.”
 
----
-
-## 📁 Sugestão de nome do arquivo
-
